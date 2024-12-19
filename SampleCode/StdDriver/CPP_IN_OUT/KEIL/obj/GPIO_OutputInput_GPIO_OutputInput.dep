@@ -1,0 +1,376 @@
+Dependencies for Project 'GPIO_OutputInput', Target 'GPIO_OutputInput': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (..\..\..\..\Library\Device\Nuvoton\M031\Source\system_M031Series.c)(0x67613DAC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char-gdwarf-4 -O0 -ffunction-sections -I ../../../../Library/CMSIS/Include -I ../../../../Library/Device/Nuvoton/M031/Include -I ../../../../Library/StdDriver/inc -I ../TaskScheduler-master/src-I./RTE/_GPIO_OutputInput-IC:/Users/jcliu/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/jcliu/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.24/Device/M031/Include-D__UVISION_VERSION="541" -D_RTE_-o ./obj/system_m031series.o -MMD)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x664C6419)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\system_M031Series.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\acmp_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\adc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\clk_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\crc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\ebi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\fmc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\gpio_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\hdiv_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\i2c_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\pdma_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\pwm_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\bpwm_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\qspi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\spi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\sys_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\rtc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\timer_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\uart_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\ui2c_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\usbd_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\uspi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\uuart_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\wdt_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\wwdt_reg.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\bpwm.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\qspi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\hdiv.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usci_i2c.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usci_spi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usci_uart.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x664C6419)
+F (..\..\..\..\Library\Device\Nuvoton\M031\Source\ARM\startup_M031Series.s)(0x664C6419)(--target=arm-arm-none-eabi -mcpu=cortex-m0 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-I./RTE/_GPIO_OutputInput-IC:/Users/jcliu/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/jcliu/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.24/Device/M031/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 541" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./obj/startup_m031series.o)
+F (..\..\..\..\Library\StdDriver\src\uart.c)(0x67613DAC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char-gdwarf-4 -O0 -ffunction-sections -I ../../../../Library/CMSIS/Include -I ../../../../Library/Device/Nuvoton/M031/Include -I ../../../../Library/StdDriver/inc -I ../TaskScheduler-master/src-I./RTE/_GPIO_OutputInput-IC:/Users/jcliu/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/jcliu/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.24/Device/M031/Include-D__UVISION_VERSION="541" -D_RTE_-o ./obj/uart.o -MMD)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x664C6419)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\system_M031Series.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\acmp_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\adc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\clk_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\crc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\ebi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\fmc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\gpio_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\hdiv_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\i2c_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\pdma_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\pwm_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\bpwm_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\qspi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\spi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\sys_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\rtc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\timer_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\uart_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\ui2c_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\usbd_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\uspi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\uuart_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\wdt_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\wwdt_reg.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\bpwm.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\qspi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\hdiv.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usci_i2c.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usci_spi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usci_uart.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x664C6419)
+F (..\..\..\..\Library\StdDriver\src\clk.c)(0x664C6419)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char-gdwarf-4 -O0 -ffunction-sections -I ../../../../Library/CMSIS/Include -I ../../../../Library/Device/Nuvoton/M031/Include -I ../../../../Library/StdDriver/inc -I ../TaskScheduler-master/src-I./RTE/_GPIO_OutputInput-IC:/Users/jcliu/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/jcliu/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.24/Device/M031/Include-D__UVISION_VERSION="541" -D_RTE_-o ./obj/clk.o -MMD)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x664C6419)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\system_M031Series.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\acmp_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\adc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\clk_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\crc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\ebi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\fmc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\gpio_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\hdiv_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\i2c_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\pdma_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\pwm_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\bpwm_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\qspi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\spi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\sys_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\rtc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\timer_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\uart_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\ui2c_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\usbd_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\uspi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\uuart_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\wdt_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\wwdt_reg.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\bpwm.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\qspi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\hdiv.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usci_i2c.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usci_spi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usci_uart.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x664C6419)
+F (..\..\..\..\Library\StdDriver\src\gpio.c)(0x664C6419)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char-gdwarf-4 -O0 -ffunction-sections -I ../../../../Library/CMSIS/Include -I ../../../../Library/Device/Nuvoton/M031/Include -I ../../../../Library/StdDriver/inc -I ../TaskScheduler-master/src-I./RTE/_GPIO_OutputInput-IC:/Users/jcliu/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/jcliu/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.24/Device/M031/Include-D__UVISION_VERSION="541" -D_RTE_-o ./obj/gpio.o -MMD)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x664C6419)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\system_M031Series.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\acmp_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\adc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\clk_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\crc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\ebi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\fmc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\gpio_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\hdiv_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\i2c_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\pdma_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\pwm_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\bpwm_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\qspi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\spi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\sys_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\rtc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\timer_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\uart_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\ui2c_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\usbd_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\uspi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\uuart_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\wdt_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\wwdt_reg.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\bpwm.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\qspi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\hdiv.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usci_i2c.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usci_spi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usci_uart.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x664C6419)
+F (..\..\..\..\Library\StdDriver\src\sys.c)(0x664C6419)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char-gdwarf-4 -O0 -ffunction-sections -I ../../../../Library/CMSIS/Include -I ../../../../Library/Device/Nuvoton/M031/Include -I ../../../../Library/StdDriver/inc -I ../TaskScheduler-master/src-I./RTE/_GPIO_OutputInput-IC:/Users/jcliu/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/jcliu/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.24/Device/M031/Include-D__UVISION_VERSION="541" -D_RTE_-o ./obj/sys.o -MMD)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x664C6419)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\system_M031Series.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\acmp_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\adc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\clk_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\crc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\ebi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\fmc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\gpio_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\hdiv_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\i2c_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\pdma_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\pwm_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\bpwm_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\qspi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\spi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\sys_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\rtc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\timer_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\uart_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\ui2c_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\usbd_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\uspi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\uuart_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\wdt_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\wwdt_reg.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\bpwm.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\qspi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\hdiv.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usci_i2c.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usci_spi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usci_uart.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x664C6419)
+F (..\main.cpp)(0x676247D2)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -I ../../../../Library/CMSIS/Include -I ../../../../Library/Device/Nuvoton/M031/Include -I ../../../../Library/StdDriver/inc -I ../TaskScheduler-master/src-I./RTE/_GPIO_OutputInput-IC:/Users/jcliu/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/jcliu/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.24/Device/M031/Include-D__UVISION_VERSION="541" -D_RTE_-o ./obj/main.o -MMD)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x664C6419)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\system_M031Series.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\acmp_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\adc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\clk_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\crc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\ebi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\fmc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\gpio_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\hdiv_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\i2c_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\pdma_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\pwm_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\bpwm_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\qspi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\spi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\sys_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\rtc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\timer_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\uart_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\ui2c_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\usbd_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\uspi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\uuart_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\wdt_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\wwdt_reg.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\bpwm.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\qspi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\hdiv.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usci_i2c.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usci_spi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usci_uart.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x664C6419)
+I (..\TaskScheduler-master\src\TScheduler.hpp)(0x6762369F)
+I (..\TaskScheduler-master\src\TaskScheduler.h)(0x676240D9)
+I (..\TaskScheduler-master\src\TaskSchedulerDeclarations.h)(0x67623E19)
+F (..\cout.c)(0x6762357F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char-gdwarf-4 -O0 -ffunction-sections -I ../../../../Library/CMSIS/Include -I ../../../../Library/Device/Nuvoton/M031/Include -I ../../../../Library/StdDriver/inc -I ../TaskScheduler-master/src-I./RTE/_GPIO_OutputInput-IC:/Users/jcliu/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/jcliu/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.24/Device/M031/Include-D__UVISION_VERSION="541" -D_RTE_-o ./obj/cout.o -MMD)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\NuMicro.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\M031Series.h)(0x664C6419)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\system_M031Series.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\acmp_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\adc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\clk_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\crc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\ebi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\fmc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\gpio_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\hdiv_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\i2c_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\pdma_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\pwm_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\bpwm_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\qspi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\spi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\sys_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\rtc_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\timer_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\uart_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\ui2c_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\usbd_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\uspi_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\uuart_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\wdt_reg.h)(0x664C6419)
+I (..\..\..\..\Library\Device\Nuvoton\M031\Include\wwdt_reg.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\bpwm.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\qspi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\hdiv.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usci_i2c.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usci_spi.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\usci_uart.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x664C6419)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x664C6419)
+F (C:/Users/jcliu/AppData/Local/Arm/Packs/Keil/ARM_Compiler/1.7.2/Source/retarget_io.c)(0x584E29BE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char-gdwarf-4 -O0 -ffunction-sections -I ../../../../Library/CMSIS/Include -I ../../../../Library/Device/Nuvoton/M031/Include -I ../../../../Library/StdDriver/inc -I ../TaskScheduler-master/src-I./RTE/_GPIO_OutputInput-IC:/Users/jcliu/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/jcliu/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.24/Device/M031/Include-D__UVISION_VERSION="541" -D_RTE_-o ./obj/retarget_io.o -MMD)
+I (RTE\_GPIO_OutputInput\RTE_Components.h)(0x67623204)
